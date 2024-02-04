@@ -32,6 +32,9 @@
     max-width: 100%;
   }
 }
+h2 {
+  color: white;
+}
 .rows{
   animation: fadeIn 5s;
   -webkit-animation: fadeIn 5s;
