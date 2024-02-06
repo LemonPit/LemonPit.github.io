@@ -4,7 +4,6 @@
   padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
 .column {
   flex: 25%;
   max-width: 25%;
@@ -25,7 +24,7 @@
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 600px) {
   .column {
     flex: 100%;
@@ -36,28 +35,13 @@ h2 {
   color: white;
 }
 .rows{
-  animation: fadeIn 5s;
-  -webkit-animation: fadeIn 5s;
-  -moz-animation: fadeIn 5s;
-  -o-animation: fadeIn 5s;
-  -ms-animation: fadeIn 5s;
   display: flex;
   flex-direction: row;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
 }
-.rows{
-  animation: fadeIn 5s;
-  -webkit-animation: fadeIn 5s;
-  -moz-animation: fadeIn 5s;
-  -o-animation: fadeIn 5s;
-  -ms-animation: fadeIn 5s;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: space-evenly;
-}
+
 .self-picture{
   width: 20%;
   display: block;
@@ -103,14 +87,13 @@ h2 {
   text-decoration: none;
   color: whitesmoke;
 }
-/*General*/
+
 body{
   background-color:black;
 }
 
 
 
-/* NavBar */
 nav{
   display: block;
   margin: 0;
@@ -158,13 +141,8 @@ li.menu{
   
 }
 
-/*Main*/
+
 .toFade{
-  animation: fadeIn 5s;
-  -webkit-animation: fadeIn 5s;
-  -moz-animation: fadeIn 5s;
-  -o-animation: fadeIn 5s;
-  -ms-animation: fadeIn 5s;
   display: flex;
   flex-direction: row;
  
@@ -201,11 +179,6 @@ li.menu{
 
 /*Contact*/
 .title{
-  animation: fadeIn 5s;
-  -webkit-animation: fadeIn 5s;
-  -moz-animation: fadeIn 5s;
-  -o-animation: fadeIn 5s;
-  -ms-animation: fadeIn 5s;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -217,18 +190,7 @@ li.menu{
   display: block;
   margin: 0 auto;
 }
-.row{
-  animation: fadeIn 5s;
-  -webkit-animation: fadeIn 5s;
-  -moz-animation: fadeIn 5s;
-  -o-animation: fadeIn 5s;
-  -ms-animation: fadeIn 5s;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-}
+
 .phone-number, .email-me{
   color: whitesmoke;
   margin: 0 auto;
@@ -236,12 +198,7 @@ li.menu{
 .col{
   margin: 0 auto;
 }
-.row2{
-  animation: fadeIn 5s;
-  -webkit-animation: fadeIn 5s;
-  -moz-animation: fadeIn 5s;
-  -o-animation: fadeIn 5s;
-  -ms-animation: fadeIn 5s;
+.rows1{
   display: flex;
   flex-direction: row;
   margin-top: 80px;
@@ -349,10 +306,10 @@ li.menu{
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
-/* Mobile */
+
 @media screen and (max-width:768px) {
 
-  /*Header*/
+
   li:not(:nth-child(1)){
       display: none;
   }
