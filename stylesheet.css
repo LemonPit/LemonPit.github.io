@@ -55,6 +55,10 @@ h2 {
   display: flex;
   justify-content: center;
 }
+.columns2{
+  display: flex;
+  justify-content: left;
+}
 .btn-row{
   display: flex;
   justify-content: center;
